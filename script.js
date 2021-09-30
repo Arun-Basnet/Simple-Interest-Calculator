@@ -1,6 +1,12 @@
 function simpleInterest()
 {
     var p = document.getElementById("principal").value;
+    if(principal == "" || principal <= 0)
+    {
+        alert("Enter a positive number");
+        document.getElementById("principal").focus();
+        return;
+    }
     var r = document.getElementById("rate").value;
     var t = document.getElementById("years").value;
     var si = p * t * r/100;
