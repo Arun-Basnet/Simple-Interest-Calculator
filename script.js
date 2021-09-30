@@ -1,4 +1,4 @@
-function simple_interest()
+function simpleInterest()
 {
     var p = document.getElementById("principal").value;
     var r = document.getElementById("rate").value;
@@ -15,7 +15,7 @@ function simple_interest()
 function sliderValue()
 {
     var slider = document.getElementById("rate");
-    var output = document.getElementById("demo");
+    var output = document.getElementById("rateDisplay");
     output.innerHTML = slider.value + "%"; // Display the default slider value
 
     // Update the current slider value (each time you drag the slider handle)
