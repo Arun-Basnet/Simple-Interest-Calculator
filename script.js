@@ -1,7 +1,7 @@
 function simpleInterest()
 {
     var p = document.getElementById("principal").value;
-    if(principal == "" || principal <= 0)
+    if(p == "" || p <= 0)
     {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
