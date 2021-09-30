@@ -16,6 +16,7 @@ function simpleInterest()
     
     var resultDisplay = document.getElementById("result");
     resultDisplay.innerHTML = "If you deposit " + "<span class='highlight'>" + p + "</span>."  + ", <br> at an interest rate of "+ "<span class='highlight'>" + r + "</span> %." + "<br> You will receive an amount of " + "<span class='highlight'>" + si + "</span>" + ", <br> in the year " + "<span class='highlight'>" + yearNow + "</span>";
+}
 
 function sliderValue()
 {
